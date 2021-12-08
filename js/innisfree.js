@@ -132,7 +132,7 @@ $(".arrow .Btn .leftBtn_main").on("click", function () {
         $loading.fadeIn();
         setTimeout(function () {
             $loading.fadeOut(1000);
-        }, 3000);
+        }, 3500);
     }
     loading();
 })

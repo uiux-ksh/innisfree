@@ -450,64 +450,64 @@ footer select {float:right; padding:5px 15px; margin:8px 100px 0 0; }
   
 
   /* svg */
-.st0{fill:url(#SVGID_1_);stroke:#FFFFFF;stroke-miterlimit:10;}
-.st1{fill:none;stroke:#FFFFFF;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-.st2{fill:url(#SVGID_2_);stroke:#FFFFFF;stroke-miterlimit:10;}
-.st3{fill:#1B9E4C;}
-#loading .svgWrap {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 500px;
-    height: 500px;
-  } 
-  #loading {
-    z-index: 99999999;
-    display: block;
-    position: fixed;
-    left: 0px;
-    top: 0px;
-    background: #086748;
-    width: 100%;
-    height: 100%;
-  }
-
+  .st0{fill:url(#SVGID_1_);stroke:#FFFFFF;stroke-miterlimit:10;}
+  .st1{fill:none;stroke:#FFFFFF;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+  .st2{fill:url(#SVGID_2_);stroke:#FFFFFF;stroke-miterlimit:10;}
+  .st3{fill:#1B9E4C;}
+  #loading .svgWrap {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 400px;
+      height: 400px;
+    } 
+    #loading {
+      z-index: 99999999;
+      display: block;
+      position: fixed;
+      left: 0px;
+      top: 0px;
+      background: #292929;
+      width: 100%;
+      height: 100%;
+    }
   
- .first {
-    stroke:#fff;
-animation: draw 1.5s 0s linear forwards, fillOpacity 0.5s 1.5s forwards ease-in;
-stroke-dasharray: 300;
-stroke-dashoffset: 300;
-
-fill-opacity: 0;
-}
-
- 
-.second {
-    stroke:#fff;
-animation: draw 2s 0s linear forwards, fillOpacity 0.5s 1.5s forwards ease-in;
-stroke-dasharray: 300;
-stroke-dashoffset: 300;
-
-fill-opacity: 0;
-}
-
-.third{
-    stroke:#fff;
-    animation: draw 2s 0s linear forwards, fillOpacity 0.5s 1.5s forwards ease-in;
-    stroke-dasharray: 150;
-    stroke-dashoffset: 150;
     
-    fill-opacity: 0; 
-}
-@keyframes fillOpacity {
-100% {
-  fill-opacity: 1;
-}
-}
-@keyframes draw {
-100% {
-  stroke-dashoffset: 0;
-}
-}
+   .first {
+      stroke:#fff;
+  animation: draw 2s 0s linear forwards, fillOpacity 0.5s 3s forwards ease-in;
+  stroke-dasharray: 300;
+  stroke-dashoffset: 300;
+  
+  fill-opacity: 0;
+  }
+  
+   
+  .second {
+      stroke:#fff;
+  animation: draw 3s 0s linear forwards, fillOpacity 0.5s 3s forwards ease-in;
+  stroke-dasharray: 300;
+  stroke-dashoffset: 300;
+  
+  fill-opacity: 0;
+  }
+  
+  .third{
+      stroke:#fff;
+      animation: draw 3s 0s linear forwards, fillOpacity 0.5s 3s forwards ease-in;
+      stroke-dasharray: 150;
+      stroke-dashoffset: 150;
+      
+      fill-opacity: 0; 
+  }
+  @keyframes fillOpacity {
+  100% {
+    fill-opacity: 1;
+  }
+  }
+  @keyframes draw {
+  100% {
+    stroke-dashoffset: 0;
+  }
+  }
